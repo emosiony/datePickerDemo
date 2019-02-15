@@ -1,0 +1,736 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2720C5B409AB455ACB1BC48F /* libPods-RocDatePickerDemoUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2AE694725EE233D2557D8BFD /* libPods-RocDatePickerDemoUITests.a */; };
+		3AF4FBBF54960F493C32A5D9 /* libPods-RocDatePickerDemoTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F23DAFA3AE01A27284A0419 /* libPods-RocDatePickerDemoTests.a */; };
+		634FC41821EECA3A008F5303 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 634FC41721EECA3A008F5303 /* AppDelegate.m */; };
+		634FC41B21EECA3A008F5303 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 634FC41A21EECA3A008F5303 /* ViewController.m */; };
+		634FC41E21EECA3A008F5303 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 634FC41C21EECA3A008F5303 /* Main.storyboard */; };
+		634FC42021EECA3B008F5303 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 634FC41F21EECA3B008F5303 /* Assets.xcassets */; };
+		634FC42321EECA3B008F5303 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 634FC42121EECA3B008F5303 /* LaunchScreen.storyboard */; };
+		634FC42621EECA3B008F5303 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 634FC42521EECA3B008F5303 /* main.m */; };
+		634FC43021EECA3B008F5303 /* RocDatePickerDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 634FC42F21EECA3B008F5303 /* RocDatePickerDemoTests.m */; };
+		634FC43B21EECA3B008F5303 /* RocDatePickerDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 634FC43A21EECA3B008F5303 /* RocDatePickerDemoUITests.m */; };
+		634FC44D21EED6A2008F5303 /* UUDatePicker.m in Sources */ = {isa = PBXBuildFile; fileRef = 634FC44A21EED6A2008F5303 /* UUDatePicker.m */; };
+		634FC44E21EED6A2008F5303 /* UUDatePicker_DateModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 634FC44B21EED6A2008F5303 /* UUDatePicker_DateModel.m */; };
+		63FBA12521EED9AF008CA045 /* NSDate+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 63FBA12321EED9AE008CA045 /* NSDate+Extension.m */; };
+		63FBA12821EF035C008CA045 /* UUTimePickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 63FBA12721EF035C008CA045 /* UUTimePickerView.m */; };
+		BFA3622467C944791E38CE8D /* libPods-RocDatePickerDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 33F202CEB18DA27BE21BF0D4 /* libPods-RocDatePickerDemo.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		634FC42C21EECA3B008F5303 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 634FC40B21EECA3A008F5303 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 634FC41221EECA3A008F5303;
+			remoteInfo = RocDatePickerDemo;
+		};
+		634FC43721EECA3B008F5303 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 634FC40B21EECA3A008F5303 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 634FC41221EECA3A008F5303;
+			remoteInfo = RocDatePickerDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		158804C26636DF669594A2BC /* Pods-RocDatePickerDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RocDatePickerDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-RocDatePickerDemo/Pods-RocDatePickerDemo.release.xcconfig"; sourceTree = "<group>"; };
+		2AE694725EE233D2557D8BFD /* libPods-RocDatePickerDemoUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-RocDatePickerDemoUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		33F202CEB18DA27BE21BF0D4 /* libPods-RocDatePickerDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-RocDatePickerDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F23DAFA3AE01A27284A0419 /* libPods-RocDatePickerDemoTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-RocDatePickerDemoTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		634FC41321EECA3A008F5303 /* RocDatePickerDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RocDatePickerDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		634FC41621EECA3A008F5303 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		634FC41721EECA3A008F5303 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		634FC41921EECA3A008F5303 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		634FC41A21EECA3A008F5303 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		634FC41D21EECA3A008F5303 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		634FC41F21EECA3B008F5303 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		634FC42221EECA3B008F5303 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		634FC42421EECA3B008F5303 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		634FC42521EECA3B008F5303 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		634FC42B21EECA3B008F5303 /* RocDatePickerDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RocDatePickerDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		634FC42F21EECA3B008F5303 /* RocDatePickerDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RocDatePickerDemoTests.m; sourceTree = "<group>"; };
+		634FC43121EECA3B008F5303 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		634FC43621EECA3B008F5303 /* RocDatePickerDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RocDatePickerDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		634FC43A21EECA3B008F5303 /* RocDatePickerDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RocDatePickerDemoUITests.m; sourceTree = "<group>"; };
+		634FC43C21EECA3B008F5303 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		634FC44921EED6A2008F5303 /* UUDatePicker_DateModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UUDatePicker_DateModel.h; sourceTree = "<group>"; };
+		634FC44A21EED6A2008F5303 /* UUDatePicker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UUDatePicker.m; sourceTree = "<group>"; };
+		634FC44B21EED6A2008F5303 /* UUDatePicker_DateModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UUDatePicker_DateModel.m; sourceTree = "<group>"; };
+		634FC44C21EED6A2008F5303 /* UUDatePicker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UUDatePicker.h; sourceTree = "<group>"; };
+		63FBA12321EED9AE008CA045 /* NSDate+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+Extension.m"; sourceTree = "<group>"; };
+		63FBA12421EED9AE008CA045 /* NSDate+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+Extension.h"; sourceTree = "<group>"; };
+		63FBA12621EF035C008CA045 /* UUTimePickerView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UUTimePickerView.h; sourceTree = "<group>"; };
+		63FBA12721EF035C008CA045 /* UUTimePickerView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UUTimePickerView.m; sourceTree = "<group>"; };
+		7268C761BE7BAC7D5921C157 /* Pods-RocDatePickerDemoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RocDatePickerDemoTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-RocDatePickerDemoTests/Pods-RocDatePickerDemoTests.release.xcconfig"; sourceTree = "<group>"; };
+		A48C991A353365499C496462 /* Pods-RocDatePickerDemoUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RocDatePickerDemoUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RocDatePickerDemoUITests/Pods-RocDatePickerDemoUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		BA3F55B28628BEB691A6BEFC /* Pods-RocDatePickerDemoUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RocDatePickerDemoUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-RocDatePickerDemoUITests/Pods-RocDatePickerDemoUITests.release.xcconfig"; sourceTree = "<group>"; };
+		C9ABDE0F75C1E2CFF1D0BE93 /* Pods-RocDatePickerDemoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RocDatePickerDemoTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RocDatePickerDemoTests/Pods-RocDatePickerDemoTests.debug.xcconfig"; sourceTree = "<group>"; };
+		DDCD48C766D31C1A3653609D /* Pods-RocDatePickerDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RocDatePickerDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RocDatePickerDemo/Pods-RocDatePickerDemo.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		634FC41021EECA3A008F5303 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BFA3622467C944791E38CE8D /* libPods-RocDatePickerDemo.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		634FC42821EECA3B008F5303 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3AF4FBBF54960F493C32A5D9 /* libPods-RocDatePickerDemoTests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		634FC43321EECA3B008F5303 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2720C5B409AB455ACB1BC48F /* libPods-RocDatePickerDemoUITests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		634FC40A21EECA3A008F5303 = {
+			isa = PBXGroup;
+			children = (
+				634FC41521EECA3A008F5303 /* RocDatePickerDemo */,
+				634FC42E21EECA3B008F5303 /* RocDatePickerDemoTests */,
+				634FC43921EECA3B008F5303 /* RocDatePickerDemoUITests */,
+				634FC41421EECA3A008F5303 /* Products */,
+				73DD260D43CFC8593182A23D /* Pods */,
+				65C9402DE7720DC40D281532 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		634FC41421EECA3A008F5303 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				634FC41321EECA3A008F5303 /* RocDatePickerDemo.app */,
+				634FC42B21EECA3B008F5303 /* RocDatePickerDemoTests.xctest */,
+				634FC43621EECA3B008F5303 /* RocDatePickerDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		634FC41521EECA3A008F5303 /* RocDatePickerDemo */ = {
+			isa = PBXGroup;
+			children = (
+				634FC44821EED6A2008F5303 /* UUDatePicker_Block */,
+				634FC41621EECA3A008F5303 /* AppDelegate.h */,
+				634FC41721EECA3A008F5303 /* AppDelegate.m */,
+				634FC41921EECA3A008F5303 /* ViewController.h */,
+				634FC41A21EECA3A008F5303 /* ViewController.m */,
+				634FC41F21EECA3B008F5303 /* Assets.xcassets */,
+				634FC42421EECA3B008F5303 /* Info.plist */,
+				634FC42121EECA3B008F5303 /* LaunchScreen.storyboard */,
+				634FC42521EECA3B008F5303 /* main.m */,
+				634FC41C21EECA3A008F5303 /* Main.storyboard */,
+			);
+			path = RocDatePickerDemo;
+			sourceTree = "<group>";
+		};
+		634FC42E21EECA3B008F5303 /* RocDatePickerDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				634FC42F21EECA3B008F5303 /* RocDatePickerDemoTests.m */,
+				634FC43121EECA3B008F5303 /* Info.plist */,
+			);
+			path = RocDatePickerDemoTests;
+			sourceTree = "<group>";
+		};
+		634FC43921EECA3B008F5303 /* RocDatePickerDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				634FC43A21EECA3B008F5303 /* RocDatePickerDemoUITests.m */,
+				634FC43C21EECA3B008F5303 /* Info.plist */,
+			);
+			path = RocDatePickerDemoUITests;
+			sourceTree = "<group>";
+		};
+		634FC44821EED6A2008F5303 /* UUDatePicker_Block */ = {
+			isa = PBXGroup;
+			children = (
+				634FC44921EED6A2008F5303 /* UUDatePicker_DateModel.h */,
+				634FC44B21EED6A2008F5303 /* UUDatePicker_DateModel.m */,
+				634FC44C21EED6A2008F5303 /* UUDatePicker.h */,
+				634FC44A21EED6A2008F5303 /* UUDatePicker.m */,
+				63FBA12621EF035C008CA045 /* UUTimePickerView.h */,
+				63FBA12721EF035C008CA045 /* UUTimePickerView.m */,
+				63FBA12421EED9AE008CA045 /* NSDate+Extension.h */,
+				63FBA12321EED9AE008CA045 /* NSDate+Extension.m */,
+			);
+			path = UUDatePicker_Block;
+			sourceTree = "<group>";
+		};
+		65C9402DE7720DC40D281532 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				33F202CEB18DA27BE21BF0D4 /* libPods-RocDatePickerDemo.a */,
+				3F23DAFA3AE01A27284A0419 /* libPods-RocDatePickerDemoTests.a */,
+				2AE694725EE233D2557D8BFD /* libPods-RocDatePickerDemoUITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		73DD260D43CFC8593182A23D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				DDCD48C766D31C1A3653609D /* Pods-RocDatePickerDemo.debug.xcconfig */,
+				158804C26636DF669594A2BC /* Pods-RocDatePickerDemo.release.xcconfig */,
+				C9ABDE0F75C1E2CFF1D0BE93 /* Pods-RocDatePickerDemoTests.debug.xcconfig */,
+				7268C761BE7BAC7D5921C157 /* Pods-RocDatePickerDemoTests.release.xcconfig */,
+				A48C991A353365499C496462 /* Pods-RocDatePickerDemoUITests.debug.xcconfig */,
+				BA3F55B28628BEB691A6BEFC /* Pods-RocDatePickerDemoUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		634FC41221EECA3A008F5303 /* RocDatePickerDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 634FC43F21EECA3B008F5303 /* Build configuration list for PBXNativeTarget "RocDatePickerDemo" */;
+			buildPhases = (
+				EDE8F8FB106AD47814EC38C9 /* [CP] Check Pods Manifest.lock */,
+				634FC40F21EECA3A008F5303 /* Sources */,
+				634FC41021EECA3A008F5303 /* Frameworks */,
+				634FC41121EECA3A008F5303 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RocDatePickerDemo;
+			productName = RocDatePickerDemo;
+			productReference = 634FC41321EECA3A008F5303 /* RocDatePickerDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		634FC42A21EECA3B008F5303 /* RocDatePickerDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 634FC44221EECA3B008F5303 /* Build configuration list for PBXNativeTarget "RocDatePickerDemoTests" */;
+			buildPhases = (
+				53A48A0EE8D6C39C64AE68A0 /* [CP] Check Pods Manifest.lock */,
+				634FC42721EECA3B008F5303 /* Sources */,
+				634FC42821EECA3B008F5303 /* Frameworks */,
+				634FC42921EECA3B008F5303 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				634FC42D21EECA3B008F5303 /* PBXTargetDependency */,
+			);
+			name = RocDatePickerDemoTests;
+			productName = RocDatePickerDemoTests;
+			productReference = 634FC42B21EECA3B008F5303 /* RocDatePickerDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		634FC43521EECA3B008F5303 /* RocDatePickerDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 634FC44521EECA3B008F5303 /* Build configuration list for PBXNativeTarget "RocDatePickerDemoUITests" */;
+			buildPhases = (
+				2E2BA56F4D8045AF0BC87085 /* [CP] Check Pods Manifest.lock */,
+				634FC43221EECA3B008F5303 /* Sources */,
+				634FC43321EECA3B008F5303 /* Frameworks */,
+				634FC43421EECA3B008F5303 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				634FC43821EECA3B008F5303 /* PBXTargetDependency */,
+			);
+			name = RocDatePickerDemoUITests;
+			productName = RocDatePickerDemoUITests;
+			productReference = 634FC43621EECA3B008F5303 /* RocDatePickerDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		634FC40B21EECA3A008F5303 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = rocHome;
+				TargetAttributes = {
+					634FC41221EECA3A008F5303 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					634FC42A21EECA3B008F5303 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 634FC41221EECA3A008F5303;
+					};
+					634FC43521EECA3B008F5303 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 634FC41221EECA3A008F5303;
+					};
+				};
+			};
+			buildConfigurationList = 634FC40E21EECA3A008F5303 /* Build configuration list for PBXProject "RocDatePickerDemo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 634FC40A21EECA3A008F5303;
+			productRefGroup = 634FC41421EECA3A008F5303 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				634FC41221EECA3A008F5303 /* RocDatePickerDemo */,
+				634FC42A21EECA3B008F5303 /* RocDatePickerDemoTests */,
+				634FC43521EECA3B008F5303 /* RocDatePickerDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		634FC41121EECA3A008F5303 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				634FC42321EECA3B008F5303 /* LaunchScreen.storyboard in Resources */,
+				634FC42021EECA3B008F5303 /* Assets.xcassets in Resources */,
+				634FC41E21EECA3A008F5303 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		634FC42921EECA3B008F5303 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		634FC43421EECA3B008F5303 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2E2BA56F4D8045AF0BC87085 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-RocDatePickerDemoUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		53A48A0EE8D6C39C64AE68A0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-RocDatePickerDemoTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EDE8F8FB106AD47814EC38C9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-RocDatePickerDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		634FC40F21EECA3A008F5303 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				634FC41B21EECA3A008F5303 /* ViewController.m in Sources */,
+				634FC42621EECA3B008F5303 /* main.m in Sources */,
+				63FBA12521EED9AF008CA045 /* NSDate+Extension.m in Sources */,
+				63FBA12821EF035C008CA045 /* UUTimePickerView.m in Sources */,
+				634FC44E21EED6A2008F5303 /* UUDatePicker_DateModel.m in Sources */,
+				634FC41821EECA3A008F5303 /* AppDelegate.m in Sources */,
+				634FC44D21EED6A2008F5303 /* UUDatePicker.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		634FC42721EECA3B008F5303 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				634FC43021EECA3B008F5303 /* RocDatePickerDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		634FC43221EECA3B008F5303 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				634FC43B21EECA3B008F5303 /* RocDatePickerDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		634FC42D21EECA3B008F5303 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 634FC41221EECA3A008F5303 /* RocDatePickerDemo */;
+			targetProxy = 634FC42C21EECA3B008F5303 /* PBXContainerItemProxy */;
+		};
+		634FC43821EECA3B008F5303 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 634FC41221EECA3A008F5303 /* RocDatePickerDemo */;
+			targetProxy = 634FC43721EECA3B008F5303 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		634FC41C21EECA3A008F5303 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				634FC41D21EECA3A008F5303 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		634FC42121EECA3B008F5303 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				634FC42221EECA3B008F5303 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		634FC43D21EECA3B008F5303 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		634FC43E21EECA3B008F5303 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		634FC44021EECA3B008F5303 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DDCD48C766D31C1A3653609D /* Pods-RocDatePickerDemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = LW5Y3D4HU2;
+				INFOPLIST_FILE = RocDatePickerDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.rocHome.RocDatePickerDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		634FC44121EECA3B008F5303 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 158804C26636DF669594A2BC /* Pods-RocDatePickerDemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = LW5Y3D4HU2;
+				INFOPLIST_FILE = RocDatePickerDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.rocHome.RocDatePickerDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		634FC44321EECA3B008F5303 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C9ABDE0F75C1E2CFF1D0BE93 /* Pods-RocDatePickerDemoTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = LW5Y3D4HU2;
+				INFOPLIST_FILE = RocDatePickerDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.rocHome.RocDatePickerDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RocDatePickerDemo.app/RocDatePickerDemo";
+			};
+			name = Debug;
+		};
+		634FC44421EECA3B008F5303 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7268C761BE7BAC7D5921C157 /* Pods-RocDatePickerDemoTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = LW5Y3D4HU2;
+				INFOPLIST_FILE = RocDatePickerDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.rocHome.RocDatePickerDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RocDatePickerDemo.app/RocDatePickerDemo";
+			};
+			name = Release;
+		};
+		634FC44621EECA3B008F5303 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A48C991A353365499C496462 /* Pods-RocDatePickerDemoUITests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = LW5Y3D4HU2;
+				INFOPLIST_FILE = RocDatePickerDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.rocHome.RocDatePickerDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = RocDatePickerDemo;
+			};
+			name = Debug;
+		};
+		634FC44721EECA3B008F5303 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BA3F55B28628BEB691A6BEFC /* Pods-RocDatePickerDemoUITests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = LW5Y3D4HU2;
+				INFOPLIST_FILE = RocDatePickerDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.rocHome.RocDatePickerDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = RocDatePickerDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		634FC40E21EECA3A008F5303 /* Build configuration list for PBXProject "RocDatePickerDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				634FC43D21EECA3B008F5303 /* Debug */,
+				634FC43E21EECA3B008F5303 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		634FC43F21EECA3B008F5303 /* Build configuration list for PBXNativeTarget "RocDatePickerDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				634FC44021EECA3B008F5303 /* Debug */,
+				634FC44121EECA3B008F5303 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		634FC44221EECA3B008F5303 /* Build configuration list for PBXNativeTarget "RocDatePickerDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				634FC44321EECA3B008F5303 /* Debug */,
+				634FC44421EECA3B008F5303 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		634FC44521EECA3B008F5303 /* Build configuration list for PBXNativeTarget "RocDatePickerDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				634FC44621EECA3B008F5303 /* Debug */,
+				634FC44721EECA3B008F5303 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 634FC40B21EECA3A008F5303 /* Project object */;
+}
